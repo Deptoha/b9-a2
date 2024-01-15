@@ -1,0 +1,80 @@
+
+
+/* header section  */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav > ul{
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+/* banner section  */
+
+.banner{
+    text-align: center;
+    background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat;
+}
+
+/* main section  */
+
+/* Our Popular Tours section  */
+
+.popular-tour{
+display: flex;
+}
+
+/* Choose Your Destination section */
+
+.row{
+    display: flex;
+    
+}
+
+/* Why Choose Us section */
+
+.icon{
+    display: flex;
+}
+
+.icon-1{
+    text-align: center;
+}
+
+/* Deals & Discounts section  */
+
+
+
+
+/* A Simple Perfect Place To Get Lost section  */
+
+
+
+
+/* Newsletter Newsletter section  */
+
+.newsletter{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+/* footer section */
+
+.footer{
+    text-align: center;
+}
+
+.footer-img{
+    display: flex;
+    
+    justify-content: center;
+}
