@@ -8,12 +8,13 @@
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 
-<body>
+<body class="container">
     <header>
         <nav>
-            <h3>Booking.com</h3>
+            <!-- <img src="Images/Group 40071 (2).png" alt=""> -->
+            <h3><span class="span">Booking</span>.com</h3>
             <ul>
-                <li>Home</li>
+                <li><span class="span">Home</span></li>
                 <li>Packages</li>
                 <li>Testimonial</li>
                 <li>Blog</li>
@@ -23,24 +24,29 @@
 
         <!-- banner section  -->
 
-        <div class="banner">
-            <h1>Explore Your Travel</h1>
-            <p>Travel is the movement of people between distant geographical locations. <br> Travel can be done by
-                foot,bicycle, automobile, train, boat, bus, airplane, ship or other means, <br> with or without luggage,
-                and can
-                be one way or round trip.</p>
-            <form class="search">
-                <input type="text" name="destination" placeholder="Where go">
-                <select name="date">
-                    <option value="">When</option>
-                </select>
-                <select name="type">
-                    <option value="">Select Type</option>
-                </select>
-                <button class="button-1">Find Now</button>
-            </form>
-        </div>
+        <section class="banner">
 
+            <div class="explore">
+                <h1 class="travel">Explore Your Travel</h1>
+                <p class="pragraph">Travel is the movement of people between distant geographical locations. <br> Travel can be done by
+                    foot,bicycle, automobile, train, boat, bus, airplane, ship or other means, <br> with or without
+                    luggage,
+                    and can
+                    be one way or round trip.</p>
+                <form class="search">
+                    <input class="date" name="destination" placeholder="Where go">
+                    <select class="date">
+                        <option value="">When</option>
+                    </select>
+                    <select class="date">
+                        <option value="">Select Type</option>
+                    </select>
+                    <button class="button-1">Find Now</button>
+                </form>
+            </div>
+
+
+        </section>
     </header>
 
     <!-- main section  -->
@@ -49,20 +55,20 @@
         <!-- Our Popular Tours section  -->
 
         <section class="popular-tour">
-            <div>
-                <h3>Our Popular Tours</h3>
-                <p>Our Right Size Advantage defines each tour's ideal size and means you'll enjoy groups of 14 to 38
+            <div class="our-tour">
+                <!-- <h3 class="our-popular-tour">Our Popular Tours</h3> -->
+                <p class="our-popular-tour">Our Popular Tours</p>
+                <p class="our-popular-tour-description">Our Right Size Advantage defines each tour's ideal size and means <br> you'll enjoy groups of 14 to 38
                     travelers, never more. </p>
-                <ul>
-                    <li>The most obvious pro to booking a group tour for your next vacation is the price.</li>
-                    <li>A group tour comes at a lower price when compared to a more stylized, private tour.</li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </li>
+                <ul class="our-popular-tour-description">
+                    <li>The most obvious pro to booking a group tour <br> for your next vacation is the price.</li>
+                    <li>A group tour comes at a lower price when compared <br> to a more stylized, private tour.</li>
+                    <li>Travel texts focus on providing an overview of a destination,<br> while destination texts go into greater detail about each <br> individual attraction or activity available there.  </li>
                 </ul>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus, quam tempore sapiente alias
-                    reiciendis aperiam aliquid commodi est. </p>
-                <button class="button-2">Read More</button>
+                <p class="our-popular-tour-description">Travel texts are simply descriptions of destinations that appear <br> in travel-related media such as magazines, websites, or brochures. <br> They provide information about a particular destination, including <br> its features and highlights. In contrast, destination <br> texts are written by tourist organizations for their own website <br> or publication. These texts typically include <br> more detailed information about a destination than <br> what’s found in travel texts.</p>
+                <button class="button-1">Read More</button>
             </div>
-            <div>
+            <div class="tour-img">
                 <img src="Images/Rectangle 4.png" alt="">
             </div>
 
@@ -71,10 +77,9 @@
         <!-- Choose Your Destination section -->
 
         <section>
-            <div>
-                <h3>Choose Your Destination</h3>
-                <p>Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst
-                    nec nibh pellentesque.</p>
+            <div class="choose">
+                <h3 class="destination">Choose Your Destination</h3>
+                <p class="our-popular-tour-description">Consider what kind of traveler you are. Everyone has their own <br> idea of what a vacation is.</p>
             </div>
             <div class="row">
                 <img src="Images/Rectangle 5.png" alt="">
@@ -94,20 +99,20 @@
 
         <!-- Why Choose Us section -->
 
-        <section>
-            <h3>
+        <section class="why-choose-us">
+            <h3 class="choose-us">
                 Why Choose Us
             </h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            <p class="everything">Everything that a tourist may need when going abroad, in addition to the ticket. <br> Quality Guarantee – We do not have to worry about paperwork necessary documents.</p>
 
             <div class="icon">
 
-                <div>
+                <div class="handpick">
                     <img src="icons/icons8-hotel-64.png" alt="">
                     <h4>Handpicked Hotels</h4>
                     <p>Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet et. </p>
                 </div>
-                <div>
+                <div class="world">
                     <img src="icons/icons8-map-64.png" alt="">
                     <h4>World Class Service</h4>
                     <p>Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet et. </p>
@@ -116,11 +121,13 @@
 
 
             </div>
-            <div class="icon-1">
-                <img src="icons/icons8-summer-sales-64.png" alt="">
-                <h4>Best Price Guarantee</h4>
-                <p>Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet et.</p>
-
+            <div class="best-price">
+                <div class="icon-1">
+                    <img src="icons/icons8-summer-sales-64.png" alt="">
+                    <h4>Best Price Guarantee</h4>
+                    <p>Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet et.</p>
+    
+                </div>
             </div>
         </section>
 
@@ -140,12 +147,20 @@
 
         <section class="newsletter">
             <div>
-                <h4>Newsletter</h4>
-                <p>Get your daily dose of travel news & tips. Sign up today</p>
+                <h4 class="news">Newsletter</h4>
+                <p class="get-your-daily-dose">Get your daily dose of travel news & tips.Sign up <br> today</p>
                 <form class="form">
-                    <input type="text" name="name" placeholder="Enter your name">
-                    <input type="email" name="email" placeholder="Enter your email">
-                    <button type="submit">Subscribe</button>
+                    <!-- <input class="your-name" name="name" placeholder="Enter your name"> -->
+
+                    <div><input class="your-name" name="name" placeholder="Enter your name"></div>
+
+                    <!-- <input class="your-email" name="email" placeholder="Enter your email"> -->
+
+                    <div><input type="email" name="email" placeholder="Enter your email"></div>
+
+                    <!-- <button type="submit">Subscribe</button> -->
+
+                    <div><button type="submit">Subscribe</button></div>
                 </form>
 
             </div>
@@ -167,11 +182,11 @@
 
     <!-- footer section  -->
 
-    <footer>
+    <footer class="footer-section">
         <section class="footer">
             <div class="footer-img">
-                <img src="Images/Group 40071 (2).png" alt="">
-                <h3>Hero Travel</h3>
+                <img class="booking-img" src="Images/Group 40071 (2).png" alt="">
+                <h3>Hero <span class="span">Travel</span></h3>
             </div>
             <div>
                 Lorem ipsum dolor sit amet consectetur. Nulla sit viverra morbi vitae blandit orci potenti vulputate.

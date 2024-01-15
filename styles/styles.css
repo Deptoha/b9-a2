@@ -1,13 +1,11 @@
-
-
 /* header section  */
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
 }
 
-nav > ul{
+nav>ul {
     display: flex;
 }
 
@@ -16,38 +14,200 @@ nav li {
     margin-right: 20px;
 }
 
+
+
 /* banner section  */
 
-.banner{
+.banner {
     text-align: center;
     background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
     background-repeat: no-repeat;
+    width: 1072px;
+    height: 356px;
+    border-radius: 10px;
+    padding-top: 36px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    background: #131318, #13131800;
 }
+
+
+
+
+.explore {
+    align-items: center;
+}
+
+.travel {
+    color: #FFF;
+
+    font-size: 52px;
+
+    font-weight: 800;
+    margin-bottom: 18px;
+}
+
+
+
+.pragraph {
+
+    color: #FFF;
+    text-align: center;
+
+    font-size: 10px;
+
+    font-weight: 400;
+    margin-bottom: 36px;
+
+}
+
+.search {
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+
+.button-1 {
+    border-radius: 8px;
+    background: #FF5400;
+    height: 33px;
+    width: 112px;
+    color: #FFF;
+    text-align: center;
+    font-size: 12px;
+}
+
+.date {
+    height: 33px;
+    width: 122px;
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 12px;
+    font-weight: 400;
+
+}
+
+
 
 /* main section  */
 
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+
+}
+
 /* Our Popular Tours section  */
 
-.popular-tour{
-display: flex;
+.popular-tour {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 85px;
 }
+
+.our-tour {
+    width: 1440px;
+
+}
+
+.our-popular-tour {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 4px;
+
+}
+
+.our-popular-tour-description {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+.tour-img {
+    padding-right: 20px;
+}
+
 
 /* Choose Your Destination section */
 
-.row{
+.row {
     display: flex;
-    
+
+}
+
+.choose {
+    text-align: center;
+}
+
+.destination {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+
 }
 
 /* Why Choose Us section */
 
-.icon{
+.icon {
     display: flex;
+    gap: 65px;
 }
 
-.icon-1{
+.icon-1 {
     text-align: center;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    width: 508px;
+    height: 162px;
 }
+
+
+
+.choose-us {
+    text-align: center;
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 15px;
+
+}
+
+.everything {
+    text-align: center;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 45px;
+}
+
+.why-choose-us {
+    margin-top: 75px;
+    margin-bottom: 100px;
+}
+
+.handpick {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+
+
+}
+
+.world {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+
+}
+
 
 /* Deals & Discounts section  */
 
@@ -61,20 +221,77 @@ display: flex;
 
 /* Newsletter Newsletter section  */
 
-.newsletter{
-display: flex;
-justify-content: center;
-align-items: center;
+
+
+.newsletter {
+    display: flex;
+    justify-content: space-between;
+
 }
+
+.get-your-daily-dose {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.news {
+
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+
+}
+
+.form {
+    /* display: flex; */
+    /* flex-direction: row; */
+}
+
+.your-name{
+    color: rgba(19, 19, 24, 0.30);
+font-size: 14px;
+font-weight: 400;
+width: 250px;
+    height: 37px;
+}
+
+
 
 /* footer section */
 
-.footer{
-    text-align: center;
+.footer-section {
+
+    background: rgba(19, 19, 24, 0.05);
+    height: 311px;
+
 }
 
-.footer-img{
+.footer {
+    text-align: center;
+    padding-top: 32px
+}
+
+.footer-img {
     display: flex;
-    
+
     justify-content: center;
+}
+
+.booking-img {
+    width: 32px;
+    height: 20.673px;
+    padding-top: 20px;
+    padding-right: 10px;
+}
+
+.footer-icon {
+
+    padding-top: 37px;
+}
+
+
+/* mixed style section  */
+.span {
+    color: #FF5400
 }
