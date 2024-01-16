@@ -139,7 +139,12 @@ nav li {
 
 .row {
     display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
 
+.row img {
+    /* max-width: 567px; */
 }
 
 .choose {
@@ -167,8 +172,8 @@ nav li {
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
     width: 508px;
-    height: 162px;
-    margin-left: 205px;
+    height: 200px;
+    margin-left: 280px;
     margin-top: 35px;
 }
 
@@ -203,15 +208,17 @@ nav li {
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
-
-
+    width: 470px;
+    margin-left: 40px;
+    padding-left: 25px;
 }
 
 .world {
     border-radius: 16px;
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
-
+    width: 470px;
+    padding-left: 25px;
 }
 
 
@@ -376,18 +383,20 @@ nav li {
     text-align: center;
 }
 
+
+
 .save-up-to {
     color: #FFF;
     font-size: 18px;
     font-weight: 800;
-margin-top: 9px;
+    margin-top: 9px;
 }
 
 .travel-com {
     color: #FFF;
     font-size: 12px;
     font-weight: 400;
-padding-top: 10px;
+    padding-top: 10px;
 }
 
 /* footer section */
@@ -425,7 +434,7 @@ padding-top: 10px;
 #verticle-line {
     height: 1px;
     width: 780px;
-    margin-left: 90px ;
+    margin-left: 90px;
     background: rgba(19, 19, 24, 0.10);
 }
 
@@ -438,4 +447,21 @@ padding-top: 10px;
 /* mixed style section  */
 .span {
     color: #FF5400
+}
+
+
+
+
+/* responsive media queris  */
+
+/* Mobile device  */
+
+
+@media screen and (max-width: 600px) {
+    
+
+
+
+
+
 }
