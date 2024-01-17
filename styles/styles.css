@@ -5,13 +5,31 @@ nav {
     justify-content: space-between;
 }
 
-nav > ul {
+nav li a{
+    text-decoration: none;
+    
+    color: var(--Dark-02, #424247);
+}
+
+nav>ul {
     display: flex;
+    margin-left: 507px;
+    margin-right: 18px;
+    margin-top: 22px;
 }
 
 nav li {
     list-style: none;
     margin-right: 20px;
+}
+
+nav img {
+
+    width: 38px;
+    height: 33.673px;
+    margin-top: 18px;
+    margin-left: 8px;
+    margin-right: 12px;
 }
 
 
@@ -28,7 +46,7 @@ nav li {
     padding-top: 36px;
     margin-top: 20px;
     margin-bottom: 100px;
-    background: #131318, #13131800;
+    /* background: #13131800; */
 }
 
 
@@ -97,7 +115,7 @@ nav li {
 /* main section  */
 
 .container {
-    max-width: 1100px;
+    max-width: 1075px;
     margin: 0 auto;
 
 }
@@ -157,6 +175,30 @@ nav li {
 
 }
 
+.rectangle-5{
+    max-width: 522px;
+}
+
+.rectangle-6{
+max-width: 301px;
+}
+
+.rectangle-7{
+max-width: 452px;
+}
+
+.rectangle-9{
+
+}
+
+.rectangle-10{
+    max-width: 566px;
+}
+
+.rectangle-11{
+
+}
+
 /* Why Choose Us section */
 
 .icon {
@@ -204,7 +246,7 @@ nav li {
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
     width: 470px;
-    margin-left: 40px;
+    margin-left: 10pxpx;
     padding-left: 25px;
 }
 
@@ -251,7 +293,7 @@ nav li {
     border-radius: 16px;
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
-margin-left: 65px;
+    margin-left: 65px;
     width: 440px;
 }
 
@@ -311,12 +353,13 @@ margin-left: 65px;
     margin-bottom: 50px;
 }
 
-.newsletter{
+.newsletter {
 
     display: flex;
     gap: 24px;
-    
+
 }
+
 .get-your-daily-dose {
     color: #5A5A5D;
     font-size: 16px;
@@ -336,8 +379,8 @@ margin-left: 65px;
 .sign-up-today {
     padding-left: 20px;
     border-radius: 16px;
-border: 1px solid #FF5400;
-height: 420px;
+    border: 1px solid #FF5400;
+    height: 420px;
 }
 
 .form {
@@ -401,9 +444,9 @@ height: 420px;
     padding-top: 2px;
 }
 
-.promo-img{
+.promo-img {
     position: relative;
-  width: 100%;
+    width: 100%;
 }
 
 /* footer section */
@@ -474,11 +517,11 @@ height: 420px;
     }
 
     .search {
-        display: flex;
+        /* display: flex; */
         flex-direction: column;
-        padding: 16px;
+        padding: 0px;
         align-items: center;
-        gap: 24px;
+        gap: 8px;
         border-radius: 8px;
         /* background: rgba(255, 255, 255, 0.30); */
     }
@@ -520,21 +563,14 @@ height: 420px;
         gap: 50px;
     }
 
-    .handpick {
-        border-radius: 16px;
-        border: 1px solid rgba(251, 181, 99, 0.20);
-        background: rgba(251, 181, 99, 0.05);
-        width: 470px;
-        margin-left: 0px;
-        padding-left: 25px;
-    }
+    
 
     .icon-1 {
         border-radius: 16px;
         border: 1px solid rgba(233, 68, 68, 0.20);
         background: rgba(233, 68, 68, 0.05);
         width: 460px;
-        height: 200px;  
+        height: 200px;
         margin-top: 35px;
     }
 
@@ -542,7 +578,7 @@ height: 420px;
         text-align: center;
         display: flex;
         flex-direction: column;
-        
+
         gap: 52px
     }
 
@@ -552,7 +588,7 @@ height: 420px;
         padding-left: 0px;
     }
 
-    .newsletter{
+    .newsletter {
 
         display: flex;
         flex-direction: column;
@@ -565,7 +601,7 @@ height: 420px;
         text-align: center;
         padding-right: 0px;
         height: 400px;
-    
+
     }
 
     .our-popular-tour {
@@ -573,12 +609,13 @@ height: 420px;
         font-size: 40px;
         font-weight: 800;
         margin-top: -50px;
-    
+
     }
 
     .our-tour {
         width: 1440px;
         margin-bottom: 40px;
+        margin-left: 40px;
     }
 
     .destination {
@@ -616,16 +653,16 @@ height: 420px;
         border-radius: 16px;
         border: 1px solid rgba(41, 206, 246, 0.20);
         background: rgba(41, 206, 246, 0.05);
-    margin-left: 20px;
+        margin-left: 20px;
         width: 440px;
     }
-    
+
     nav h3 {
         margin-left: 180px;
     }
 
-    nav > ul {
-        margin-left: 30px;
+    nav>ul {
+        margin-left: 10px;
     }
 
     #verticle-line {
@@ -652,6 +689,60 @@ height: 420px;
         margin-left: 10px;
         padding-left: 26px;
     }
+
+    nav img {
+        width: 38px;
+        height: 33.673px;
+        margin-top: 18px;
+        margin-left: 125px;
+        margin-right: 12px;
+    }
+
+    .nav-title{
+        margin-left: 177px;
+        margin-top: -31px;
+    }
+
+    .date {
+        height: 49px;
+        width: 270px;
+        border-radius: 8px;
+        background: #FFF;
+        color: rgba(19, 19, 24, 0.50);
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .travel {
+        color: #FFF;
+        font-size: 44px;
+        font-weight: 800;
+        margin-bottom: 2px;
+        margin-top: 36px;
+    }
+
+    .rectangle-4{
+        max-width: 420px;
+        margin-left: 30px;
+    }
+
+    .rectangle-6 {
+        max-width: 480px;
+        max-height: 248px;
+    }
+
+    .rectangle-9 {
+        max-height: 266px;
+    }
+
+    .rectangle-7-1{
+        max-width: 435px;
     
-   
+    }
+
+    .rectangle-8-1{
+        max-width: 460px;
+        margin-left: 14px;
+    }
+
 }
